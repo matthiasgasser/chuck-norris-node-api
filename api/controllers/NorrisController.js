@@ -30,7 +30,7 @@ function get_line(filename, callback) {
  //   var data = fs.readFileSync(filename, 'utf8');
  //   var lines = data.split("\n");
 
-    callback(null, norrisDE[getRandomInt(0,norrisDE.length)]);
+    callback(null, norrisDE[getRandomInt(0,norrisDE.length-1)]);
 }
 
 function getRandomInt(min, max) {
