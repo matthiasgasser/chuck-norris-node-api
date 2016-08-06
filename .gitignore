@@ -151,5 +151,7 @@ jspm_packages
 # Optional npm cache directory
 .npm
 
+.c9
+
 # Optional REPL history
 .node_repl_history
